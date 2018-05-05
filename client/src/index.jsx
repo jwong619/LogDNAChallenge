@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import TopBar from './components/TopBar.jsx';
+import SideBar from './components/SideBar.jsx';
 
 class App extends React.Component {
 
@@ -12,7 +13,10 @@ class App extends React.Component {
     // selected
     return(
       <div>
+        <TopBar />
+        <SideBar />
         <h1>LogDNA</h1>
+
       </div>
       );
   }
